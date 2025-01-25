@@ -44,8 +44,14 @@ function handleOptionClick(event) {
         const userComputerResult = userValue + computerValue
         const finalResult = winner[userComputerResult]
 
+        if (userValue === computerResult) {
+            resultText.textContent = 'Empate'
+        } else {
+            resultText.textContent = finalResult
+        }
 
-        resultText.textContent = userValue === computerResult ? 'Empate': finalResult + ' Ganhou'
+
+        // resultText.textContent = userValue === computerResult ? `Empate`: finalResult
     }, 2000)
 }
 
