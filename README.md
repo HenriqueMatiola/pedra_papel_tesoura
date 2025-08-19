@@ -1,5 +1,8 @@
-# pedra_papel_tesoura
- Recriado o jogo Joken pow, utilizando HTML, CSS e JS, com ajuda do canal "DEV-Club"
+# Pedra_Papel_Tesoura
+ Esse projeto foi criado com o objetivo de práticar funções no javascript.
 
+⚙️Ferramentas utilziadas:
 
-Site: https://henriquematiola.github.io/pedra_papel_tesoura/
+* HTML: Para fazer a estrutura da página;
+* CSS: Utilizado o css puro, para fazer uma estilização simples;
+* JavaScript: Uso de funçoes e toda a interação da página.
